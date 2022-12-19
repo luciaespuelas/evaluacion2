@@ -1,0 +1,19 @@
+//intento del programa segun mi forma de verlo
+#include<iostream>//Librería de cabecera
+using namespace std;//esto ns para q es pero lo pone antonio
+
+//empecemos
+int main(){
+	int n1,n2,n3;
+	cout<<"dime 3 numeros enteros: ";
+	cin>> n1>> n2 >> n3;
+	if(n1>n2){
+		if(n1>n3){
+		cout<<"el mayor es "<<n1;
+		}
+	}
+	else{
+		cout<<"el mayor es"<<n3;
+	}
+	return 0;
+}

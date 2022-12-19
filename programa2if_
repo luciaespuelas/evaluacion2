@@ -1,0 +1,16 @@
+//intento del programa segun mi forma de verlo
+#include<iostream>//Librería de cabecera
+using namespace std;//esto ns para q es pero lo pone antonio
+
+//empecemos
+int main(){
+	int edad;
+	cout<<"dime tu edad: ";
+	cin>> edad;
+	if(edad>=18){
+		cout<<"eres mayor de edad";
+	}
+	else{
+		cout<<"eres menor";
+	}
+}

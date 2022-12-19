@@ -10,6 +10,9 @@ int main(){
 	if(edad>=18){
 		cout<<"eres mayor de edad";
 	}
+	if(edad<0){
+		cout<<"error";
+	}
 	else{
 		cout<<"eres menor";
 	}

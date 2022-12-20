@@ -1,0 +1,38 @@
+//instrucciones basicas
+//candicional multiple
+#include<iostream>//libreria de cabecera
+using namespace std;
+
+int main(){
+
+	//definimos 3 variables 
+	int resp;
+	cout<<"**************************"<<endl;
+	cout<<"***********MENU***********"<<endl;
+	cout<<"**************************"<<endl;
+	cout<<"1. volver a mostrar menu"<<endl;
+	cout<<"2. despedirme"<<endl;
+	cout<<"3. salir"<<endl;
+	cout<<"elige una opcion: ";
+	cin>> resp;
+
+
+	switch(resp){
+		case 1 :
+			cout<<"**************************"<<endl;
+			cout<<"***********MENU***********"<<endl;
+			cout<<"**************************"<<endl;
+			cout<<"1. volver a mostrar menu"<<endl;
+			cout<<"2. despedirme"<<endl;
+			cout<<"3. salir"<<endl;
+			cout<<"elige una opcion: "<<endl;
+			break;
+		case 2:
+			cout<<"estas despedido. ";
+			break;
+		case 3:
+			break;
+		default:
+			cout<<"no has elegido ninguna opcion. ";
+	}
+}

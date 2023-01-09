@@ -1,0 +1,11 @@
+#include<iostream>//libreria de cabecera
+
+using namespace std;
+
+int main(){
+	int cont; //sino no funciona hace falta declarar todas las variables antes
+	for(cont=1;cont<=4;cont++){
+		cout<<"Estoy contento"<<cont<<endl;//para que salte de linea
+	}
+	return 0;
+}

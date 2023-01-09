@@ -8,6 +8,7 @@ int main(){
 	int b;
 	cout<<"un numero del 1 al 9: ";
 	cin>> a;
+	cout<<"la tabla del: "<<a<<endl;
 	for(cont=0;cont<=10;cont++){
 		
 	

@@ -12,3 +12,22 @@ int main(){
 	printf("x=%d",x);
 	return 0; 
 }
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include<iostream>
+#include<stdio.h>
+
+using namespace std; 	
+ 
+int main(){
+	char letra;
+	char *pletra;//muy importante no dejarse el *
+	letra='A';
+	pletra=&letra;
+	printf("pletra=%x\n",pletra);//printea la direccion de x y tienes q poner %X \n es para saltar de linea
+	printf("letra=%c",letra);// poner c para las letras
+	return 0; 
+}

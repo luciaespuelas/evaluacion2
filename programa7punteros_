@@ -1,0 +1,14 @@
+#include<iostream>
+#include<stdio.h>
+
+using namespace std; 	
+ 
+int main(){
+	int x;
+	int *px;
+	x=3;
+	px=&x; //la direcion de x, es un pointer
+	printf("px=%x\n",px);//printea la direccion de x y tienes q poner %X \n es para saltar de linea
+	printf("x=%d",x);
+	return 0; 
+}

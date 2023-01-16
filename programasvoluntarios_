@@ -1,0 +1,22 @@
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+
+// Lee un numero de segundos, y calcula a cuantas horas, minutos
+// y segundos equivale
+// 1. Declaracion de variables
+int main(){
+	int tiempo, horas, minutos, segundos;
+// 2. Entrada por teclado de datos
+	cout << "Introduce un valor de tiempo en segundos (Ej. 5543): ";
+	cin >> tiempo;
+// 3. Calculo de resultados parciales
+	horas = tiempo / 3600;
+	minutos = (tiempo % 3600) / 60;
+	segundos = tiempo % 60;
+// 4. Salida por pantalla de resultados
+	cout << tiempo << " segundos equivalen a ";
+	cout << horas << " horas, ";
+	cout << minutos << " minutos y ";
+	cout << segundos << " segundos" << endl;
+}

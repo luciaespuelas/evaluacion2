@@ -55,3 +55,25 @@ int main(){
 	cout << num;
 	return 0;
 }
+
+----------------------------------------------------------------------------------------------------
+
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+// Lee un numero y escribe el maximo
+int main(){
+	int a, b, c, max;
+	cout << "Introduce tres valores a, b y c: ";
+	cin >> a >> b >> c;
+	cout << "El maximo de " << a << ", " << b << " y " << c;
+	if (a >= b && a >= c)
+		max = a;
+	else if (b >= c)
+		max = b;
+	else
+		max = c;
+	cout << " es: " << max << endl;
+	return 0;
+	
+}

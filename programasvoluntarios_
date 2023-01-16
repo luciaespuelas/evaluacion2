@@ -20,3 +20,21 @@ int main(){
 	cout << minutos << " minutos y ";
 	cout << segundos << " segundos" << endl;
 }
+
+
+-------------------------------------------------------------------------------------------------
+#include<iostream>
+#include<stdio.h>
+using namespace std;
+// Lee un numero y escribe si es par o impar
+int main(){
+	int num;
+	cout << "Introduce un numero: ";
+	cin >> num;
+	cout << "El numero " << num << " es ";
+	if (num % 2 == 0)
+		cout << "par.";
+	else
+		cout << "impar."<<endl;
+
+}

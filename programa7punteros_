@@ -31,3 +31,18 @@ int main(){
 	printf("letra=%c",letra);// poner c para las letras
 	return 0; 
 }
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#include<iostream>
+#include<stdio.h>
+
+using namespace std; 	
+ 
+int main(){
+	char letra[]="macarrones";
+	
+	printf("pletra[]=%c\n",letra[1]);//printea la letra de la palabra en la posicion 0
+
+	return 0; 
+}

@@ -32,3 +32,22 @@ int main(){
 
 	return 0; 
 }
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+#include<iostream>
+#include<stdio.h>
+
+using namespace std; 	
+ 
+int main(){
+	char letra[]="macarrones";
+	int cont;
+	for(cont=0;cont<=9;cont++){
+		printf("dame la letra letra[%d]=%c en la posicion= %x\n",cont,letra[cont],&letra[cont]);//printea la letra de la palabra en la posicion 0
+	}
+	printf("letra=%s",letra); //dice la palabra entera 
+	cout <<endl;
+	printf("letra=%x",letra);//dice la posicion de la primera letra
+	return 0; 
+}

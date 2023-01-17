@@ -1,0 +1,19 @@
+// Lee un numero y escribe si esta en el centro del intervalo [0,10],
+// en el intervalo [2,8], en el intervalo [0,10] o fuera del
+// intervalo [0,10]
+#include<iostream>
+using namespace std;
+int main(){
+	int num;
+	cout << "Introduce un numero entre 1 y 10: ";
+	cin >> num;
+	if (2 <= num && num <= 8)
+		cout << num << " esta en el intervalo [2,8]"<<endl;
+	else if (0 <= num && num <= 10)
+		cout << num << " esta en el intervalo [0,10]";
+	else if (num == 5)
+		cout << num << " esta en el centro del intervalo [0,10]";
+	else
+		cout << num << " no pertenece al intervalo [0,10]";
+	return 0;
+}

@@ -1,0 +1,62 @@
+programa que te pide tres palabras y las organiza alfabéticamente usando una función llamada swap que intercambia el valor de a por el de b sus posiciones.
+Además hay que tener en cuenta que cuando le dices a C++ que compare dos palabras ya las compara automaticamente por el orden alfabetico usando ">".
+#include <iostream>
+#include <string>
+#include <stdio.h>
+
+using namespace std;
+
+int main() {
+    string a, b, c;
+    cout << "dime una palabra: ";
+    cin >> a;
+    cout << "otra: ";
+    cin >> b;
+    cout << "otra más: ";
+    cin >> c;
+    
+    // Ordenamiento de las palabras
+    if (a > b) { //al utilizar > ya compara alfabéticamente directamente si quisieramos comparar longitud de carcteres utilizaríamos la función "a.length()"
+        swap(a, b);
+    }
+    if (b > c) {
+        swap(b, c);
+    }
+    if (a > b) {
+        swap(a, b);
+    }
+
+    cout << "Las palabras ordenadas alfabeticamente son: " << a << " " << b << " " << c << endl;
+    return 0;
+}
+
+ESTE OTRO PROGRAMA ES IGUAL PERO ORDENA SEGÚN LA LONGITUD DE FORMA QUE VEAS COMO SE COMPARA CON UNA FUNCION QUE MIDE LA LOGITUD
+#include <iostream>
+#include <string>
+#include <stdio.h>
+
+using namespace std;
+
+int main() {
+    string a, b, c;
+    cout << "Ingresa la primera palabra: ";
+    cin >> a;
+    cout << "segunda palabra: ";
+    cin >> b;
+    cout << "tercera palabra: ";
+    cin >> c;
+    
+    // Ordenamiento de las palabras SEGÚN SU LONGITUD (por número de letras)
+    if (a.length() > b.length()) {
+        swap(a, b);
+    }
+    if (b.length() > c.length()) {
+        swap(b, c);
+    }
+    if (a.length() > b.length()) {
+        swap(a, b);
+    }
+
+    cout << "Las palabras ordenadas por número de letras son: " << a << " " << b << " " << c << endl;
+    return 0;
+}

@@ -2,6 +2,7 @@ lo primero y más importante que tienes que poner es esto :
 #include<iostream>
 #include<stdio.h>
 #include<stdlib.h>
+#include<time.h> //si vas a hacer algo con el tiempo 
 //Este programa ordena por el método de la burbuja
 using namespace std;
 
@@ -10,3 +11,10 @@ int main(){
 
     return 0;
 }
+
+
+--> TODOS LOS ORDENADORES TIENEN UN RELOJ los relojes se pueden utilizar para producir numeros random conforme pasa el tiempo pasa de "pagina" de la memoria de libro
+--> EL ORDENADOR TIENE LA LISTA DE  NUMEROS ALEATORIOS de 0 a dos a la 8 ns q 
+--> El momento 0 del pc es la primera vez que se enciende pero esta set en 1970 
+--> % es el resto
+

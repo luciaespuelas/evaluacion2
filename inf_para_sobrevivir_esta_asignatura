@@ -1,0 +1,12 @@
+lo primero y más importante que tienes que poner es esto :
+#include<iostream>
+#include<stdio.h>
+#include<stdlib.h>
+//Este programa ordena por el método de la burbuja
+using namespace std;
+
+int main(){
+
+
+    return 0;
+}

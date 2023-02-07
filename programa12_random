@@ -13,4 +13,4 @@ int main(){
     cout<<"un numero al azar: "<<rand();
 	return 0;
 }
-IIIIII
+

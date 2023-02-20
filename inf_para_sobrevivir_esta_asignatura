@@ -18,3 +18,7 @@ int main(){
 --> El momento 0 del pc es la primera vez que se enciende pero esta set en 1970 
 --> % es el resto
 
+- metodo de la burbujha repetir el preceso n-1 vexces sirve para ordenar siendo n el numero de elementos que tienes apra esto tiernes que comparar cada uno de los elementos `por lo que utilizas un for 
+--> parentesis se utilizan en los comandos tipos while if ...
+--> corchetes se utilizan en los vectores de posiciones de memoria 
+---> si comparo dos letras estoy comparando sus codigos por lo que por el codigo (...) poner un > para comparar alfabeticamente funciona 

@@ -1,3 +1,15 @@
+EJERCICIO VOLUNTARIO:
+
+Escribe un programa que lea 10 números enteros:
+1. Añade una función que los ordene de mayor a menor
+2. Añade una función que te devuelva los tres mayores
+3. Añade una función que te devuelva los tres mayores que sean pares
+4. Añade una función que te devuelva la media de los tres mayores
+PISTA: programa adjunto
+TIEMPO: Clase de hoy
+SUBIR A GITHUB TODOS LOS EJERCICIOS
+
+-----------------------------------------------------------------------------------------------------------
 #include<iostream>
 #include<stdio.h>
 #include<stdlib.h>

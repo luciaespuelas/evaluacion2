@@ -1,0 +1,72 @@
+#include<iostream>
+#include<stdio.h>
+#include<stdlib.h>
+using namespace std;
+int main(){
+	int cont;
+	char num[10];
+	int veces;
+	int fil;
+	char *aux;
+    for(cont=1;cont<11;cont++){
+		cout<< "dime el numero"<<cont<<":";
+		cin>> num;
+	   	cout<< "Has introducido el numero: "<<num<<endl;
+    for(veces=0;veces<10;veces++){
+        for(fil=0;fil<11;fil++){
+            if(*(num+fil)>*(num+fil+1)){
+                aux=num[fil];
+                num[fil]=num[fil+1];
+                num[fil+1]=aux;
+            }        
+        }
+    }
+	}
+            // Comprobación como lista ordenada
+    cout<<endl;
+    cout<<"***********************************"<<endl;
+    cout<<"*  EL ORDEN DE LOS NUM ES           *"<<endl;
+    cout<<"***********************************"<<endl;
+    for(cont=1;cont<11;cont++){
+        printf("%s\n",num[cont]);    
+	}
+	return 0;
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------- 
+
+
+#include<iostream>
+#include<stdio.h>
+#include<stdlib.h>
+using namespace std;
+int main(){
+	int cont;
+	char num[10];
+	int veces;
+	int fil;
+	char *aux;
+    for(cont=1;cont<11;cont++){
+		cout<< "dime el numero"<<cont<<":";
+		cin>> num;
+	   	cout<< "Has introducido el numero: "<<num<<endl;
+    for(veces=0;veces<10;veces++){
+    	if (*(num+veces)>*(num+veces+1)){
+    		aux=num[veces];
+            num[veces]=num[veces+1];
+            num[veces+1]=aux;   		
+		}
+    }
+	}
+            // Comprobación como lista ordenada
+    cout<<endl;
+    cout<<"***********************************"<<endl;
+    cout<<"*  EL ORDEN DE LOS NUM ES           *"<<endl;
+    cout<<"***********************************"<<endl;
+    for(cont=1;cont<11;cont++){
+        printf("%s\n",num[cont]);    
+	}
+	return 0;
+}
+
+------------------------------------------------------------------------------------------------
